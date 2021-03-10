@@ -40,7 +40,7 @@
             </releases>
         </pluginRepository>
     </pluginRepositories>
-    
+
     <repositories>
         <repository>
             <id>libs</id>
@@ -175,12 +175,12 @@
                     <version>2.10</version>
                 </plugin>
             </plugins>
-            
+
         </pluginManagement>
         <plugins>
             <!--
             Configure a property that hold the path of the WS-Attacker basedir
-            ${highest-basedir}/runnable 
+            ${highest-basedir}/runnable
             will e.g. be the output for the framework
             -->
             <plugin>

@@ -38,7 +38,7 @@
             <id>libs</id>
             <url>https://repo.nds.rub.de/repository/libs/</url>
         </repository>
-        <!-- This is no longer needed, using 
+        <!-- This is no longer needed, using
             https://repo.nds.rub.de:8443/archiva/repository/libs/
             instead
         -->
@@ -61,7 +61,7 @@
             <artifactId>soapui-maven-plugin</artifactId>
             <version>5.1.3</version>
             <exclusions>
-                <!-- 
+                <!--
                     We do not use javafx because so that we can compile with
                     OpenJDK.
                     javafx is used for OAuth, which is not part of WS-Attacker
